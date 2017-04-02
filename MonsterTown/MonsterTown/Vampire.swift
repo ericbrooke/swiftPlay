@@ -20,7 +20,7 @@ class Vampire :  Monster {
             town!.population = 0
             print("The town has being destroyed")
         } else {
-            town!.changePopulation(by: -5)
+            town!.changePopulation(by: -1)
             thralls.append((town?.townName)!)
             print("Vampire attack by \(thralls.count) thralls")
         }

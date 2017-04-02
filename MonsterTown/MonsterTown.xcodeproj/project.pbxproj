@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C131C601E9169420096FCF9 /* Mayor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C131C5F1E9169420096FCF9 /* Mayor.swift */; };
 		4C9333901E907D80007D1C79 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93338F1E907D80007D1C79 /* main.swift */; };
 		4C9333971E907E35007D1C79 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9333961E907E35007D1C79 /* Town.swift */; };
 		4C9333991E90803D007D1C79 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9333981E90803D007D1C79 /* Monster.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C131C5F1E9169420096FCF9 /* Mayor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mayor.swift; sourceTree = "<group>"; };
 		4C93338C1E907D80007D1C79 /* MonsterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTown; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C93338F1E907D80007D1C79 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4C9333961E907E35007D1C79 /* Town.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				4C93338F1E907D80007D1C79 /* main.swift */,
 				4C93339A1E908135007D1C79 /* Zombie.swift */,
+				4C131C5F1E9169420096FCF9 /* Mayor.swift */,
 				4C93339C1E90969C007D1C79 /* Vampire.swift */,
 				4C9333981E90803D007D1C79 /* Monster.swift */,
 				4C9333961E907E35007D1C79 /* Town.swift */,
@@ -134,6 +137,7 @@
 			files = (
 				4C9333901E907D80007D1C79 /* main.swift in Sources */,
 				4C93339B1E908135007D1C79 /* Zombie.swift in Sources */,
+				4C131C601E9169420096FCF9 /* Mayor.swift in Sources */,
 				4C9333991E90803D007D1C79 /* Monster.swift in Sources */,
 				4C93339D1E90969C007D1C79 /* Vampire.swift in Sources */,
 				4C9333971E907E35007D1C79 /* Town.swift in Sources */,
@@ -266,6 +270,7 @@
 				4C9333951E907D80007D1C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
