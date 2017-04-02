@@ -8,10 +8,10 @@
 
 import Foundation
 
-var myTown = Town()
+var myTown = Town(name: "Madtown", region: "South", population: 10_000, stoplights: 6)
 let myTownSize = myTown.townSize
 print(myTownSize)
-myTown.changePopulation(by: 1_000_000)
+myTown.changePopulation(by: 5_000)
 
 print("Size: \(myTown.townSize); population: \(myTown.population)")
 
