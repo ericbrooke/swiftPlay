@@ -14,6 +14,10 @@ struct Point: Equatable, Comparable {
     static func <(lhs: Point, rhs: Point) -> Bool {
         return (lhs.x < rhs.x) && (lhs.y < rhs.y)
     }
+    
+    static func +(lhs: Point, rhs: Point) -> Int {
+        return (lhs.x + rhs.y)
+    }
 }
 
 let a = Point(x: 3, y: 4)
@@ -31,5 +35,7 @@ let cLessThanD = ( c < d)
 let cLessThanEqualD = (c <= d)
 let cGreaterThanD = ( c > d)
 let cGreaterThanEqualD = ( c >= d)
+
+let aPlusB = ( a + b)
 
 
